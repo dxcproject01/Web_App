@@ -1,0 +1,116 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+<display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginVal</servlet-name>
+  	<display-name>LoginVal</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.LoginVal</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.Logout</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet>
+  	<servlet-name>DelStu</servlet-name>
+  	<display-name>DelStu</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.DelStu</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>EdiStu</servlet-name>
+  	<display-name>EdiStu</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.EdiStu</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>EdiExam</servlet-name>
+  	<display-name>EdiExam</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.EdiExam</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DelExam</servlet-name>
+  	<display-name>DelExam</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.DelExam</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DelMark</servlet-name>
+  	<display-name>DelMark</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.DelMark</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EdiMark</servlet-name>
+  	<display-name>EdiMark</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.EdiMark</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<display-name>UserRegistration</display-name>
+  	<description></description>
+  	<servlet-class>com.dxc.servlet.UserRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginVal</servlet-name>
+  	<url-pattern>/LoginVal</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+  	<servlet-name>DelStu</servlet-name>
+  	<url-pattern>/DelStu</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>EdiStu</servlet-name>
+  	<url-pattern>/EdiStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EdiExam</servlet-name>
+  	<url-pattern>/EdiExam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DelExam</servlet-name>
+  	<url-pattern>/DelExam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DelMark</servlet-name>
+  	<url-pattern>/DelMark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EdiMark</servlet-name>
+  	<url-pattern>/EdiMark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<url-pattern>/UserRegistration</url-pattern>
+  </servlet-mapping>
+
+</web-app>
